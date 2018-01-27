@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="fetchbookmarks()">
+<div class="container">
+    <div class="header clearfix">
+        <h3 class="text-muted">Bookmark</h3>
+    </div>
+    <div class="container" id="head">
+        <h2>Bookmark Your Favourite Site</h2>
+        <form id="myForm">
+            <div class="form-group">
+                <label>SiteName</label>
+                <input id="siteName" type="text" class="form-control" placeholder="Enter site name">
+            </div>
+            <div class="form-group">
+                <label>SiteURL</label>
+                <input id="siteURL" type="text" class="form-control" placeholder="Enter site URL">
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+
+
+        </form>
+    </div>
+    <div class="container" >
+        <div class="row marketing">
+            <div class="col-12">
+                <div id="addedSites">
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+
+<script
+        src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>

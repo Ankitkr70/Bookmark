@@ -1,0 +1,17 @@
+#head{
+    width: 80%;
+    background-color: darkgray;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ .test{
+    margin-left: 10%;
+     margin-right: 10%;
+     padding: 15px;
+     background-color: darkgray;
+
+ }
+ a {
+     margin-left: 10px;
+ }
